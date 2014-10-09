@@ -9,7 +9,7 @@
  *
  */
 #include "robot.h"
-
+#include "mealy17.h"
 /**
  * main()
  *
@@ -33,6 +33,6 @@ int main(int argc, const char * argv[])
   robPrintAscii();
 
   robPrintMessage(num);
-
+  mealy17();
   return 0;
 }
