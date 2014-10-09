@@ -4,6 +4,6 @@
 
 void mealy17() {
 
-  printf("mealy17 likes fried chicken and grape soda");
+  printf("mealy17 likes fried chicken and grape soda.\n");
 }
 
