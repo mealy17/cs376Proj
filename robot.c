@@ -41,16 +41,22 @@ void robPrintMessage(int num)
   return;
 }
 
+int i=0;
+
 /**
  * robPrintAscii
  *
  */
 void robPrintAscii(void)
 {
-  printf("    i_i    \n"
-	 "   [o_o]   \n"
-	 "   [0_0]   \n"
-	 "  /|___|\\  \n"
-         "   d   b   "); 
 
+  for (i=0; i<3; i++)
+    {
+      printf("    i_i    \n"
+	     "   [o_o]   \n"
+	     "   [0_0]   \n"
+	     "  /|___|\\  \n"
+	     "   d   b   "); 
+      printf("\n");
+ }
 }
