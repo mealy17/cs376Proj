@@ -50,13 +50,15 @@ int i=0;
 void robPrintAscii(void)
 {
 
+  char * spaces[3] = {"", "       ", "            "};
+
   for (i=0; i<3; i++)
-    {
-      printf("    i_i    \n"
-	     "   [o_o]   \n"
-	     "   [0_0]   \n"
-	     "  /|___|\\  \n"
-	     "   d   b   "); 
+    {  
+      printf("%s    i_i    \n"
+              "%s   [o_o]   \n"	 
+		"%s   [0_0]   \n"
+	     "%s  /|___|\\  \n"
+	     "%s   d   b   ",spaces[i],spaces[i],spaces[i],spaces[i],spaces[i]); 
       printf("\n");
  }
 }
