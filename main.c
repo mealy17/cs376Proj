@@ -26,7 +26,7 @@ int main(int argc, const char * argv[])
 {
   // Check the command line arguments.
   if(argc != 2) {
-    printf("usage: %s <number> \n", argv[0]);
+    //printf("usage: %s <number> \n", argv[0]);
     return -1;
   }
 
@@ -35,9 +35,9 @@ int main(int argc, const char * argv[])
 
   robPrintAscii();
 
-  robPrintMessage(num);
+  // robPrintMessage(num);
 
-  mealy17();
- mok17();
+  // mealy17();
+  //mok17();
   return 0;
 }
